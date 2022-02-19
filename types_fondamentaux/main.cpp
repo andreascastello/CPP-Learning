@@ -19,18 +19,18 @@ auto main() -> int {
     long long int lli = 42;
     //128 bit
 
-    //on peut également signer ou non-signer les i, li, lli;
+    //on peut également signé ou non-signé les i, li, lli;
 
 
     //le float nous permet d'utiliser des nombres décimaux;
-    float ff = 1.0f;    //on précise "f"ou "F" à la fin pour forcer l'utilisation du float (sinon elle est considerée comme un double)
+    float ff = 1.0f;    //on précise "f"ou "F" à la fin pour forcer l'utilisation du float (sinon elle est considérée comme un double)
     //32 bit
 
     double df = 1.0;    //pour les valeurs plus large
     //64 bit
 
-    //df = ff;          //cette conversion ne fera pas de warning car on ne peut pas perdre de donnée
-    //ff = df;          //selon le compilateur, il est possible d'avoir un warning car c'est une convertion implicite représentant un potentiel risque de perte de donnée.
+    //df = ff;          //cette conversion ne fera pas de warning car on ne peut pas perdre de données
+    //ff = df;          //selon le compilateur, il est possible d'avoir un warning car c'est une conversion implicite représentant un potentiel risque de perte de données.
 
     long double ldf = 1.0; //pour les valeurs encore plus large mais pas vraiment au norme
     //80bit
@@ -40,7 +40,7 @@ auto main() -> int {
     bool booleen = true; // autre que 0
     booleen = false; // 0
     booleen = 5;
-    //std::cout << std::boolalpha << booleen; //boolalpha permet de traduire de le booleen en literal (true/false)
+    //std::cout << std::boolalpha << booleen; //boolalpha permet de traduire de le booleen (true/false)
 
     wchar_t wl = 'A'; //unicode
     //16 bit
