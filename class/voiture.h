@@ -1,5 +1,11 @@
+#include <string>
+
 class Voiture {
-  int data;
-  auto fonction() -> void;
-  //void methode();
+    private:
+        std::string imatriculation { "default" }; //par default est private
+        int vitesse { 0 };
+
+    public:
+        auto demarrer() -> void;
+
 };
