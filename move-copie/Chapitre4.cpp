@@ -1,5 +1,5 @@
 
-#include "Voiture.h"
+#include "Voiture.hpp"
 
 auto creer() -> Voiture {
 	Voiture locale;
@@ -16,7 +16,7 @@ auto main() -> int {
 	// constructeur de copie
 	Voiture v2(v1); // Voiture v2 = v1
 
-	// opérateur d'affectation
+	// opï¿½rateur d'affectation
 	v2 = v1;
 
 	Voiture v3 = creer();

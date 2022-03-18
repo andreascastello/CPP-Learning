@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Voiture.h"
-#include "CarteGrise.h"
+#include "Voiture.hpp"
+#include "CarteGrise.hpp"
 
 Voiture::Voiture() {
 	std::cout << "Construction de voiture" << std::endl;

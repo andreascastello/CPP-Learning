@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-class Case; //declaration anticipee, on evite de mettre des includes dans les .h
+class Case; //declaration anticipee, on evite de mettre des includes dans les .hpp
 
 class Pion
 {

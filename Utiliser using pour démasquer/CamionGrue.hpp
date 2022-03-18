@@ -1,6 +1,6 @@
 #pragma once
-#include "Camion.h"
-#include "Grue.h"
+#include "Camion.hpp"
+#include "Grue.hpp"
 
 class CamionGrue : public Camion,  public Grue {
 

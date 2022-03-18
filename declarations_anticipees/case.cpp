@@ -1,5 +1,5 @@
-#include "case.h"
-#include "pion.h"
+#include "case.hpp"
+#include "pion.hpp"
 
 auto Case::action(Pion *arrivant) -> void
 {

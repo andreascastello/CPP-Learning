@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-#include "Personne.h"
+#include "Personne.hpp"
 
 class Developpeur : public Personne {
 

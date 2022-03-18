@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <string>
-#include "Personne.h"
+#include "Personne.hpp"
 
 class Developpeur : public Personne {
 
@@ -13,7 +13,6 @@ public:
 	Developpeur(std::string nom, std::string langage) : Personne(nom), langage(langage) {}
 
 	/*virtual*/ auto affiche() -> void override {
-		Personne::affiche();
-		std::cout  << " langage "<< langage << std::endl;
+		std::cout << " Nom : " << nom << " langage "<< langage << std::endl;
 	}
 };
