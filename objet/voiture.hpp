@@ -1,10 +1,12 @@
 #include <string>
 
-struct Voiture {
-        std::string imatriculation { "default" }; //par default est private
-        int vitesse { 0 };
-
+class Voiture
+{
+    private:
+        Moteur moteur;
+        Roue roues;
+        
     public:
-        auto demarrer() -> void;
-
+        Voiture(/* args */);
+        ~Voiture();
 };
